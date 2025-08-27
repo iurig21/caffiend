@@ -57,6 +57,7 @@ function CoffeForm({ isAuthenticated }) {
       setCoffeeCost(0);
       setHour(0);
       setMin(0);
+      setShowCoffeeList(false);
 
     } catch (err){
       console.log(err.message);
@@ -138,6 +139,7 @@ function CoffeForm({ isAuthenticated }) {
             <h6>Hours</h6>
             <select
               onChange={(event) => setHour(event.target.value)}
+              value={hour}
               name=""
               id="hours-select"
             >
@@ -156,6 +158,7 @@ function CoffeForm({ isAuthenticated }) {
             <h6>Minutes</h6>
             <select
               onChange={(event) => setMin(event.target.value)}
+              value={min}
               name=""
               id="mins-select"
             >

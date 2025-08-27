@@ -32,7 +32,7 @@ function Layout({ children }) {
     <footer>
       <p>
         <span className="text-gradient">Caffiend</span> was made by{" "}
-        <a href="https://github.com/iurig21/caffiend">iuri</a>
+        <a target="_blank" href="https://github.com/iurig21/caffiend">iuri</a>
       </p>
     </footer>
   );
