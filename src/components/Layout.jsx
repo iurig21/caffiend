@@ -49,7 +49,9 @@ function Layout({ children }) {
         </Modal>
       )}
       {header}
-      <main>{children}</main>
+      <main>
+          {children}
+      </main>
       {footer}
     </div>
   );

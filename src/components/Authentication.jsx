@@ -30,7 +30,7 @@ function Authentication({handleCloseModal}) {
     } catch (err) {
       setError(err.message)
     } finally {
-      setIsAuthenticating(false);
+      setIsAuthenticating(false); 
     }
   }
 

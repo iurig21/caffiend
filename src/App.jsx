@@ -12,6 +12,7 @@ function App() {
   const {GlobalUser,globalData,isLoading} = useAuth()
   const isAuthenticated = GlobalUser;
   const isData = globalData && !!Object.keys(globalData || {}).length
+  
 
   const authenticatedContent = (
     <div>
