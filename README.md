@@ -70,10 +70,6 @@
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
-
-MIT
-
 ## Author
 
 - [iurig21](https://github.com/iurig21)
